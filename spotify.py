@@ -16,7 +16,7 @@ sp = spotipy.Spotify(auth_manager=SpotifyClientCredentials(
 # ==============================
 # Read track URLs from file
 # ==============================
-file_path = "track_urls.txt"
+file_path = "spotify_data_analysis/track_urls.txt"
 if not os.path.exists(file_path):
     raise FileNotFoundError(f"File '{file_path}' not found.")
 
